@@ -4,4 +4,5 @@ services:
     image: phindock/docker101tutorial
     container_name: a_simple_java_program
     environment:
-      - app_version_num=3
+      - app_version_num=4
+    stdin_open: true
