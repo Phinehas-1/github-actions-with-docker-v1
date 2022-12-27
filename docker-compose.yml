@@ -1,0 +1,7 @@
+version: '3'
+services:
+  simp-app:
+    image: phindock/docker101tutorial
+    container_name: a_simple_java_program
+    environment:
+      - app_version_num=3
